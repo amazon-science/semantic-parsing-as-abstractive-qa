@@ -1,8 +1,9 @@
 # Semantic Parsing as Abstractive Question Answering
 
-This repository contains two abstractive question anwsering datasets that
+This repository contains two abstractive question answering datasets that
 reduced from task-oriented parsing (TOP) datasets. They are used in the
-[semantic parsing as abstractive question answering](https://aclanthology.org/2022.naacl-main.328/) work. We also provide the python scripts that we used to produce the datasets.
+[semantic parsing as abstractive question answering](https://aclanthology.org/2022.naacl-main.328/) work.
+We also provide the related data processing scripts.
 
 ## Datasets
 We studied two task-oriented parsing datasets and reformulated them to
@@ -44,12 +45,12 @@ In the `PIZZA_QA` dataset, we only studied the low data setting case by randomly
 sampling 30, 50, and 100 instances for training and evaluation from the full `Pizza`
 dataset.
 
-The `TOP_QA` dataset contains both low data and full data setttings. In low data
+The `TOP_QA` dataset contains both low data and full data settings. In low data
 setting we used the stratified sampling strategy to sample per intent and slot (spis).
 We studied four domains, including `alarm`, `navigation`, `reminder`, and `weather`,
 in low data setting and all eight domains in full data setting.
 
-### Scripts
+## Scripts
 We provide the scripts used to reformulate TOP to QA in the `./scripts` directory together
 with one script to evaluate the QA results.
 ```
@@ -87,6 +88,6 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 ## License Summary
 
-The PIZZA_QA dataset and the python scripts are make available under the CC-BY-NC-4.0 License. See the LICENSE file.
+The PIZZA_QA dataset and the python scripts are made available under the CC-BY-NC-4.0 License. See the LICENSE file.
 
-The TOP_QA dataset is make available under the CC-BY-SA-4.0 License. See the LICENSE-TOP_QA file.
+The TOP_QA dataset is made available under the CC-BY-SA-4.0 License. See the LICENSE-TOP_QA file.
