@@ -1,7 +1,7 @@
 # Semantic Parsing as Abstractive Question Answering
 
 This repository contains two abstractive question answering datasets that
-reduced from task-oriented parsing (TOP) datasets. They are used in the
+are reduced from task-oriented parsing (TOP) datasets. They are used in the
 [semantic parsing as abstractive question answering](https://aclanthology.org/2022.naacl-main.328/) work.
 We also provide the related data processing scripts.
 
