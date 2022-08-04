@@ -1,3 +1,7 @@
+# Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.  
+#
+# SPDX-License-Identifier: CC-BY-NC-4.0
+
 import networkx as nx
 from networkx.algorithms.dag import dag_longest_path
 import sys
